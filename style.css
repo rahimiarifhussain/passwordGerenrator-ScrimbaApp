@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .container {
@@ -59,3 +59,12 @@
     text-align: center;
     width: 90%;
 }
+
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+  }
